@@ -1237,6 +1237,9 @@ msgstr ""
 "Cette déclaration est seulement autorisé à partir d'un constructeur de "
 "classe."
 
+msgid "Field names must be valid."
+msgstr "Les noms de champ doivent être valides."
+
 msgid "Duplicated field detected."
 msgstr "Champ(s) dupliqué(s) détécté."
 
@@ -1322,6 +1325,9 @@ msgstr "NaN et Inf non autorisé."
 
 msgid "Expected integer index."
 msgstr "Un index entier attendu."
+
+msgid "Content indexing must return a single value."
+msgstr "L’indexation du contenu doit retourner une valeur unique."
 
 msgid "Expected a real valued scalar."
 msgstr "Un scalaire à valeur réelle attendu."
@@ -1756,6 +1762,9 @@ msgstr "Noms des champs dans les structs doivent correspondre."
 msgid "Wrong number of input arguments2."
 msgstr "Nombre incorrect d'arguments d'entrée."
 
+msgid "your error message"
+msgstr "votre message d’erreur"
+
 msgid "Update translations:"
 msgstr "Traductions mise à jour:"
 
@@ -1822,11 +1831,26 @@ msgstr "une cell de nom de modules."
 msgid "option not managed."
 msgstr "option non gérée."
 
+msgid "test failed"
+msgstr "test échoué"
+
 msgid "Summary:"
 msgstr "Résumé:"
 
-msgid "Time:"
-msgstr "Temps écoulé:"
+msgid "Tests:"
+msgstr ""
+
+msgid "Passed:"
+msgstr ""
+
+msgid "Failed:"
+msgstr "Échec:"
+
+msgid "Skipped:"
+msgstr "Ignoré:"
+
+msgid "Benchs:"
+msgstr "Benchs :"
 
 msgid " to reference types."
 msgstr ""
@@ -4049,9 +4073,6 @@ msgstr ""
 msgid "Index exceeds array bounds."
 msgstr ""
 
-msgid "Field names must be valid."
-msgstr ""
-
 msgid "Empty matrix of type double expected."
 msgstr ""
 
@@ -4073,9 +4094,6 @@ msgid "Empty contents indexing is not defined."
 msgstr ""
 
 msgid "getVectorContents not supported for sparse arrays."
-msgstr ""
-
-msgid "Content indexing must return a single value."
 msgstr ""
 
 msgid "Index exceeds cell array dimensions"
@@ -4473,9 +4491,6 @@ msgstr ""
 msgid "assert_isfalse fails."
 msgstr ""
 
-msgid "your error message"
-msgstr ""
-
 msgid "assert_istrue fails."
 msgstr ""
 
@@ -4623,21 +4638,6 @@ msgid "Number of existing help files"
 msgstr ""
 
 msgid "Congratulations all functions are documented."
-msgstr ""
-
-msgid "Tests:"
-msgstr ""
-
-msgid "Passed:"
-msgstr ""
-
-msgid "Failed:"
-msgstr ""
-
-msgid "Skipped:"
-msgstr ""
-
-msgid "Benchs:"
 msgstr ""
 
 msgid "Tests time:"
@@ -4857,9 +4857,6 @@ msgid ""
 msgstr ""
 
 msgid "invalid filename:"
-msgstr ""
-
-msgid "test failed"
 msgstr ""
 
 msgid "reference diary expected."
