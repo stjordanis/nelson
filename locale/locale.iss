@@ -25,4 +25,5 @@
 ;==============================================================================
 Source: {#RootPath}locale\en_US\LC_MESSAGES\nelson.mo; DestDir: {app}\locale\en_US\LC_MESSAGES\;
 Source: {#RootPath}locale\fr_FR\LC_MESSAGES\nelson.mo; DestDir: {app}\locale\fr_FR\LC_MESSAGES\;
+Source: {#RootPath}locale\it_IT\LC_MESSAGES\nelson.mo; DestDir: {app}\locale\it_IT\LC_MESSAGES\;
 ;==============================================================================

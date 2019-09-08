@@ -25,6 +25,7 @@
 #==============================================================================
 install(FILES ${CMAKE_SOURCE_DIR}/locale/en_US/LC_MESSAGES/nelson.mo DESTINATION ${ROOT_OUTPUT}/locale/en_US/LC_MESSAGES)
 install(FILES ${CMAKE_SOURCE_DIR}/locale/fr_FR/LC_MESSAGES/nelson.mo DESTINATION ${ROOT_OUTPUT}/locale/fr_FR/LC_MESSAGES)
+install(FILES ${CMAKE_SOURCE_DIR}/locale/it_IT/LC_MESSAGES/nelson.mo DESTINATION ${ROOT_OUTPUT}/locale/it_IT/LC_MESSAGES)
 #==============================================================================
 
 

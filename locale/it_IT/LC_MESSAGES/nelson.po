@@ -1,0 +1,228 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nelson\n"
+"PO-Revision-Date: 2019-08-01 05:11+0000\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/nelson/"
+"translations/it/>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.8-dev\n"
+
+msgid "Cannot apply numeric operation "
+msgstr "L'operazione numerica non si può applicare "
+
+msgid " to reference types."
+msgstr " ai tipi di riferimento."
+
+msgid "Same reference type expected."
+msgstr "Previsto lo stesso tipo di riferimento."
+
+msgid "Size mismatch on arguments to arithmetic operator "
+msgstr "Incongruenza di dimensione sugli argomenti dell'operatore aritmetico "
+
+msgid "Cannot apply matrix operation "
+msgstr "L'operazione matrice non può essere applicata "
+
+msgid " to N-Dimensional arrays."
+msgstr " al vettore di  N dimensioni."
+
+msgid "Size mismatch on arguments to "
+msgstr "Incongruenza di dimensioni sugli argomenti  di "
+
+msgid "empty string not allowed as expected message."
+msgstr "stringa vuota non permessa come messaggio previsto."
+
+msgid "Assertion failed : expected error message ="
+msgstr "Asserzione fallita : previsto messaggio di errore ="
+
+msgid "computed error message ="
+msgstr "messaggio di errore calcolato ="
+
+msgid "No error was produced while evaluating command."
+msgstr "Non è stato prodotto alcun errore durante la valutazione del comando."
+
+msgid "isapprox returns more than one output argument."
+msgstr "isapprox restituisce più di un solo argomento di output."
+
+msgid "isapprox must return an logical."
+msgstr "isapprox deve restituire un logico."
+
+msgid "Assertion failed: expected and computed values are too different."
+msgstr ""
+"Asserzione fallita: i valori previsti e quelli calcolati sono troppo diversi."
+
+msgid "isequalto returns more than one output argument."
+msgstr "isequalto restituisce più di un solo argomento di output."
+
+msgid "isequalto must return an logical."
+msgstr "isequalto deve restituire un logico."
+
+msgid "isequalto returns an unexpected error."
+msgstr "isequalto restituisce un errore inaspettato."
+
+msgid "Assertion failed: expected and computed values are different."
+msgstr ""
+"Asserzione fallita: i valori previsti e quelli calcolati sono troppo diversi."
+
+msgid "Assertion failed: found false entry in condition = true."
+msgstr "Asserzione fallita: trovata voce falsa nella condizione = true."
+
+msgid "Assertion failed: found false entry in condition = false."
+msgstr "Asserzione fallita: trovata voce falsa nella condizione = false."
+
+msgid "Wrong value for #1 argument."
+msgstr "Valore sbagliato come argomento numero 1."
+
+msgid "Wrong value for #3 argument."
+msgstr "Valore sbagliato come argomento numero 3."
+
+msgid "Cannot create audioplayer handle."
+msgstr "Non può essere creata una gestione audioplayer."
+
+msgid "audioplayer handle expected."
+msgstr "gestione autoplayer prevista."
+
+msgid "start >= 1 expected."
+msgstr "start >= 1 previsto."
+
+msgid "Index >= 1 expected."
+msgstr "Index >= 1 previsto."
+
+msgid "scalar or [start, end] vector expected."
+msgstr "vettore scalare o di tipo [start, end] previsto."
+
+msgid "Invalid range."
+msgstr "Range non valido."
+
+msgid "No property for class: audioplayer."
+msgstr "Nessuna proprietà per la classe: audioplayer."
+
+msgid "Properties for class: audioplayer:"
+msgstr "Proprietà per la classe: audioplayer:"
+
+msgid "Cannot set a read only property."
+msgstr "Non si può impostare una proprietà di sola lettura."
+
+msgid "[start, end] vector expected."
+msgstr "Vettore di tipo [start, end] previsto."
+
+msgid "Wrong value for #2 argument."
+msgstr "Valore sbagliato come argomento numero 2."
+
+msgid "Wrong value for #1 or #2 argument."
+msgstr "Valore sbagliato come argomento numero 1 o 2."
+
+msgid "Wrong value for #4 argument."
+msgstr "Valore sbagliato come argomento numero 4."
+
+msgid "Invalid filename."
+msgstr "Nome file non valido."
+
+msgid "No tags available."
+msgstr "Nessun tag disponibile."
+
+msgid "Cannot save file."
+msgstr "Non si può salvare il file."
+
+msgid "Wrong device ID."
+msgstr "ID dispositivo sbagliato."
+
+msgid "Empty matrix not allowed."
+msgstr "Matrice vuota non permessa."
+
+msgid "Vector or matrix 2D expected."
+msgstr "Vettore o matrice 2D prevista."
+
+msgid "Too many output channels."
+msgstr "Troppi canali di output."
+
+msgid "Type not supported."
+msgstr "Tipo non supportato."
+
+msgid "'native' or 'double' expected."
+msgstr "'native' oppure 'double' previsto."
+
+msgid "Cannot read audio file."
+msgstr "Il file audio non può essere letto."
+
+msgid "Invalid file extension."
+msgstr "Estensione del file non valida."
+
+msgid "Invalid BitsPerSample value."
+msgstr "Valore BitsPerSample non valido."
+
+msgid "Write failed."
+msgstr "Scrittura fallita."
+
+msgid "Filename must have an extension."
+msgstr "Il nome del file deve avere un'estensione."
+
+msgid "audioplayer valid handle expected."
+msgstr "prevista gestione audioplayer valida."
+
+msgid "'machine' value expected."
+msgstr "valore 'machine' previsto."
+
+msgid "Not implemented on this platform."
+msgstr "Non implementato su questa piattaforma."
+
+msgid "Unrecognized option. \"-full\" expected."
+msgstr "Opzione non riconosciuta. \"-full\" previsto."
+
+msgid "Error CLSIDFromString."
+msgstr "Errore"
+
+msgid "Error CLSIDFromProgID."
+msgstr "Errore CLSIDFromProgID."
+
+msgid "Error CoCreateInstanceEx."
+msgstr "Errore"
+
+msgid "Invalid PROGID."
+msgstr "PROGID invalido."
+
+msgid "Server is not running on this system."
+msgstr "Il server non è attivo su questo sistema."
+
+msgid "Fails to connect to server."
+msgstr "Connessione al server fallita."
+
+msgid "COM handle expected."
+msgstr "Gestione COM prevista."
+
+msgid "COM valid handle expected."
+msgstr "Prevista una gestione COM valida."
+
+msgid "IDispatch not defined."
+msgstr "IDispatch non definito."
+
+msgid "method not found."
+msgstr "metodo non trovato."
+
+msgid "Error detected:"
+msgstr "Trovato errore:"
+
+msgid "Only 7 input parameters expected."
+msgstr "Previsti solo 7 parametri di input."
+
+msgid "VARIANT conversion fails."
+msgstr "Conversione VARIANT fallisce."
+
+msgid "Sparse not supported."
+msgstr "Sparse non supportato."
+
+msgid "N dimensions array not supported."
+msgstr "Vettori di N dimensioni non supportati."
+
+msgid "Unrecognized option. \"s\" expected."
+msgstr "Opzione non riconosciuta. \"s\" previsto."
+
+msgid "Type 'double' or 'single' expected."
+msgstr "Tipo 'double' o 'single' previsto."
+
+msgid "N-dimensional arrays are not supported."
+msgstr "I vettori di N dimensioni non sono supportati."
+
