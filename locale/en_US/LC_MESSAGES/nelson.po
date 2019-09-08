@@ -11,6 +11,79 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.4\n"
 
+#, c-format
+msgid ""
+"at line %5d\n"
+"of '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "at line %5d of '%s'\n"
+msgstr ""
+
+#, c-format
+msgid "Invalid type for #%d input argument: %ls expected."
+msgstr ""
+
+msgid "one or more outputs not assigned in call"
+msgstr ""
+
+msgid "The special variable 'varargout' was not defined as expected"
+msgstr ""
+
+msgid "The special variable 'varargout' was not defined as a cell-array"
+msgstr ""
+
+msgid "Not enough outputs in varargout to satisfy call"
+msgstr ""
+
+msgid "startup.nls does not exist."
+msgstr ""
+
+msgid "Cannot call unix command."
+msgstr ""
+
+msgid "Cannot duplicate stdout (1)."
+msgstr ""
+
+msgid "Cannot duplicate stdin (1)."
+msgstr ""
+
+msgid "Cannot duplicate stderr (1)."
+msgstr ""
+
+msgid "Cannot redirect stdout."
+msgstr ""
+
+msgid "Cannot redirect stderr."
+msgstr ""
+
+msgid "Cannot restore stdout."
+msgstr ""
+
+msgid "Cannot restore stdin."
+msgstr ""
+
+msgid "Cannot close redirected stdout."
+msgstr ""
+
+msgid "Cannot close redirected stderr."
+msgstr ""
+
+msgid "Cannot close redirected stdin."
+msgstr ""
+
+msgid "Cannot read results."
+msgstr ""
+
+msgid "Cannot read file."
+msgstr ""
+
+msgid ""
+"Cannot write file %1:\n"
+"%2."
+msgstr ""
+
 msgid "Cannot apply numeric operation "
 msgstr ""
 
@@ -60,26 +133,6 @@ msgid "isequalto must return an logical."
 msgstr ""
 
 msgid "isequalto returns an unexpected error."
-msgstr ""
-
-#, c-format
-msgid ""
-"Assertion failed: expected (%ls) and computed (%ls) values are different."
-msgstr ""
-
-#, c-format
-msgid ""
-"Assertion failed: expected '%ls' and computed '%ls' values are different."
-msgstr ""
-
-#, c-format
-msgid ""
-"Assertion failed: expected \"%ls\" and computed \"%ls\" values are different."
-msgstr ""
-
-#, c-format
-msgid ""
-"Assertion failed: expected (%lg) and computed (%lg) values are different."
 msgstr ""
 
 msgid "Assertion failed: expected and computed values are different."
@@ -182,15 +235,6 @@ msgid "audioplayer valid handle expected."
 msgstr ""
 
 msgid "Sparse type not supported."
-msgstr ""
-
-msgid "Cannot convert to unicode."
-msgstr ""
-
-msgid "Invalid charset: "
-msgstr ""
-
-msgid "Cannot convert string to expected charset."
 msgstr ""
 
 msgid "'machine' value expected."
@@ -298,19 +342,6 @@ msgstr ""
 msgid "Wrong value for #1 argument, 'fullpathext' or  'fullpath' expected."
 msgstr ""
 
-msgid "Error: "
-msgstr ""
-
-msgid "Error in "
-msgstr ""
-
-msgid "line"
-msgstr ""
-
-#, c-format
-msgid "at line %5d of '%ls'\n"
-msgstr ""
-
 msgid "Unknow option."
 msgstr ""
 
@@ -395,9 +426,6 @@ msgstr ""
 msgid "'-completenames' expected or scalar integer value required."
 msgstr ""
 
-msgid "#1 'double' or 'single' expected."
-msgstr ""
-
 msgid "dlsym handle expected."
 msgstr ""
 
@@ -454,10 +482,6 @@ msgid "Unable to import function through FFI."
 msgstr ""
 
 msgid "cell array"
-msgstr ""
-
-#, c-format
-msgid "Invalid type for #%zu input argument: %ls expected."
 msgstr ""
 
 msgid "Module not loaded: library not loaded."
@@ -560,21 +584,6 @@ msgstr ""
 msgid "Integer type not managed."
 msgstr ""
 
-msgid "Cannot convert: "
-msgstr ""
-
-msgid "The base must be an integer value between 2 and 36."
-msgstr ""
-
-msgid "2D char array expected."
-msgstr ""
-
-msgid "Binary character vector may consist only of characters 0 and 1."
-msgstr ""
-
-msgid "Invalid string length: 1, 32, 64 expected."
-msgstr ""
-
 msgid "Invalid conversion from complex."
 msgstr ""
 
@@ -603,12 +612,6 @@ msgid "Undefined function '"
 msgstr ""
 
 msgid "ctranspose on N-D array is undefined."
-msgstr ""
-
-msgid "An array of integers values, 0 <= D <= flintmax expected."
-msgstr ""
-
-msgid "#3 parameter: positive integer value expected."
 msgstr ""
 
 msgid "Size mismatch on arguments to power (^) operator."
@@ -674,9 +677,6 @@ msgid "Integers must be combined with integers of the same class."
 msgstr ""
 
 msgid "Input argument must be real."
-msgstr ""
-
-msgid "First argument must be real."
 msgstr ""
 
 msgid "Undefined function 'rem' for complex input argument."
@@ -746,9 +746,6 @@ msgid "kill nelson process after n seconds"
 msgstr ""
 
 msgid "opens files in text editor"
-msgstr ""
-
-msgid "load .nh5, .mat files in Nelson"
 msgstr ""
 
 msgid "socketio address required."
@@ -822,12 +819,6 @@ msgstr ""
 msgid "Cannot apply wisdom."
 msgstr ""
 
-msgid "Wrong value for #1: 'load' or 'free' expected."
-msgstr ""
-
-msgid "Wrong value for #1: 'load' expected."
-msgstr ""
-
 msgid "Undefined function 'fft' for input arguments of type"
 msgstr ""
 
@@ -872,43 +863,7 @@ msgstr ""
 msgid "an existing file expected."
 msgstr ""
 
-msgid "Cannot create directory."
-msgstr ""
-
-msgid "Cannot read file:"
-msgstr ""
-
-msgid "Cannot read file global info."
-msgstr ""
-
-msgid "Cannot read file info."
-msgstr ""
-
 msgid "Cannot open file."
-msgstr ""
-
-msgid "Cannot open destination file."
-msgstr ""
-
-msgid "Cannot read data."
-msgstr ""
-
-msgid "Cannot read next file."
-msgstr ""
-
-msgid "Invalid value."
-msgstr ""
-
-msgid "Invalid root path."
-msgstr ""
-
-msgid "Nothing to zip."
-msgstr ""
-
-msgid "Cannot write file:"
-msgstr ""
-
-msgid "Cannot add entry:"
 msgstr ""
 
 msgid "Warning: Not a directory:"
@@ -980,18 +935,6 @@ msgstr ""
 msgid "Nelson (*.nls)"
 msgstr ""
 
-msgid "Load workspace..."
-msgstr ""
-
-msgid "Nelson (*.nh5 *.mat)"
-msgstr ""
-
-msgid "Save workspace..."
-msgstr ""
-
-msgid "Nelson (*.nh5);;MAT files (*.mat)"
-msgstr ""
-
 msgid "About Nelson..."
 msgstr ""
 
@@ -1005,18 +948,6 @@ msgid "&Execute..."
 msgstr ""
 
 msgid "Execute a .nls file"
-msgstr ""
-
-msgid "&Load Workspace..."
-msgstr ""
-
-msgid "Load a .nh5 file"
-msgstr ""
-
-msgid "&Save Workspace..."
-msgstr ""
-
-msgid "Save a .nh5 file"
 msgstr ""
 
 msgid "&Change current directory"
@@ -1208,15 +1139,6 @@ msgstr ""
 msgid "H5Dcreate fails."
 msgstr ""
 
-msgid "Invalid file format."
-msgstr ""
-
-msgid "Variable not found:"
-msgstr ""
-
-msgid "Cannot read variable:"
-msgstr ""
-
 msgid "Cannot read attribute."
 msgstr ""
 
@@ -1245,21 +1167,6 @@ msgid "Impossible to open hdf5 file."
 msgstr ""
 
 msgid "Impossible to read dimensions and maximum size of data set."
-msgstr ""
-
-msgid "Invalid variable name:"
-msgstr ""
-
-msgid "Variable does not exist:"
-msgstr ""
-
-msgid "Cannot replace file"
-msgstr ""
-
-msgid "Invalid file version."
-msgstr ""
-
-msgid "Cannot save variable:"
 msgstr ""
 
 msgid "Valid text encoding expected."
@@ -1293,24 +1200,6 @@ msgid "Complex number not supported."
 msgstr ""
 
 msgid "String class not supported."
-msgstr ""
-
-msgid "Your variables are:"
-msgstr ""
-
-msgid "Name"
-msgstr ""
-
-msgid "Size"
-msgstr ""
-
-msgid "Bytes"
-msgstr ""
-
-msgid "Class"
-msgstr ""
-
-msgid "Attributes"
 msgstr ""
 
 msgid "Qt Assistant not found."
@@ -1568,9 +1457,6 @@ msgid ""
 "%d of %d:\n"
 msgstr ""
 
-msgid "Invalid LHS."
-msgstr ""
-
 msgid "unable to resolve "
 msgstr ""
 
@@ -1651,18 +1537,6 @@ msgid "returnVals: "
 msgstr ""
 
 msgid "arguments: "
-msgstr ""
-
-msgid "The special variable 'varargout' was not defined as a cell-array."
-msgstr ""
-
-msgid "The special variable 'varargout' was not defined as expected."
-msgstr ""
-
-msgid "Not enough outputs in varargout to satisfy call."
-msgstr ""
-
-msgid "one or more outputs not assigned in call."
 msgstr ""
 
 #, c-format
@@ -2060,30 +1934,6 @@ msgstr ""
 msgid "Size mismatch on arguments."
 msgstr ""
 
-msgid "Invalid option:"
-msgstr ""
-
-msgid "Cannot read matio variable of type: function."
-msgstr ""
-
-msgid "Cannot open .mat file."
-msgstr ""
-
-msgid "Cannot read matio variable of type: object."
-msgstr ""
-
-msgid "Unknown save format."
-msgstr ""
-
-msgid "Cannot append variable (-v7.3 required)."
-msgstr ""
-
-msgid "handle not saved."
-msgstr ""
-
-msgid "Valid .mat file expected."
-msgstr ""
-
 msgid ""
 "#1 Argument must contain a string: 'global', 'base', 'local' or 'caller' "
 "expected."
@@ -2128,22 +1978,7 @@ msgstr ""
 msgid "#2 Argument must be an existing variable name."
 msgstr ""
 
-msgid "filename expected after '-file'."
-msgstr ""
-
-msgid "-file must be the first argument."
-msgstr ""
-
-msgid "who file function expected."
-msgstr ""
-
 msgid "Wrong scope."
-msgstr ""
-
-msgid "whos file function expected."
-msgstr ""
-
-msgid "Filename does not exist."
 msgstr ""
 
 msgid "Wrong value for #1 argument, 'reverse' expected."
@@ -2165,12 +2000,6 @@ msgid "An existing module with the same name already used."
 msgstr ""
 
 msgid "An existing module with the same path already defined."
-msgstr ""
-
-msgid "startup.nls does not exist"
-msgstr ""
-
-msgid "An existing module root path expected"
 msgstr ""
 
 msgid "Path does not exist:"
@@ -2266,97 +2095,7 @@ msgstr ""
 msgid "option not managed."
 msgstr ""
 
-msgid "Profile struct expected."
-msgstr ""
-
-msgid "Summary"
-msgstr ""
-
-msgid "Profile Summary"
-msgstr ""
-
-msgid "Filename"
-msgstr ""
-
-msgid "Number of Calls"
-msgstr ""
-
-msgid "Total Time (s)"
-msgstr ""
-
-msgid "Coverage %"
-msgstr ""
-
-msgid "Lines where the most time was spent"
-msgstr ""
-
-msgid "Line Number"
-msgstr ""
-
-msgid "Code"
-msgstr ""
-
-msgid "Calls"
-msgstr ""
-
-msgid "Total time (s)"
-msgstr ""
-
-msgid "Coverage results"
-msgstr ""
-
-msgid "Total lines in file"
-msgstr ""
-
-msgid "Non-code lines (comments, blank lines)"
-msgstr ""
-
-msgid "Code lines that did run"
-msgstr ""
-
-msgid "Code lines (lines that can run)"
-msgstr ""
-
-msgid "Code lines (Code lines that did not run)"
-msgstr ""
-
-msgid "Coverage (did run/can run)"
-msgstr ""
-
-msgid "Function listing"
-msgstr ""
-
-msgid "Line"
-msgstr ""
-
-msgid "Time (s)"
-msgstr ""
-
-msgid "Source code"
-msgstr ""
-
-msgid "lines"
-msgstr ""
-
-msgid "Profile and Coverage"
-msgstr ""
-
 msgid "File"
-msgstr ""
-
-msgid "Time"
-msgstr ""
-
-msgid "NumCalls"
-msgstr ""
-
-msgid "TotalTime (s)"
-msgstr ""
-
-msgid "PerCall (s)"
-msgstr ""
-
-msgid "Filename:LinePosition(FunctionName)"
 msgstr ""
 
 msgid "QObject handle expected."
@@ -2728,9 +2467,6 @@ msgstr ""
 msgid "Wrong value for #1: 'all' expected."
 msgstr ""
 
-msgid "'clear' expected as second argument."
-msgstr ""
-
 msgid "Not implemented for requested file identifier."
 msgstr ""
 
@@ -2738,9 +2474,6 @@ msgid "Second argument must be greater than zero."
 msgstr ""
 
 msgid "A valid filename expected."
-msgstr ""
-
-msgid "Encoding not supported."
 msgstr ""
 
 msgid "Invalid name."
@@ -2752,25 +2485,13 @@ msgstr ""
 msgid "Impossible to add file."
 msgstr ""
 
-msgid "Invalid machine format."
-msgstr ""
-
-msgid "Invalid encoding."
-msgstr ""
-
 msgid "Impossible to open file."
-msgstr ""
-
-msgid "machine format option ignored."
 msgstr ""
 
 msgid "valid format expected."
 msgstr ""
 
 msgid "ID not supported."
-msgstr ""
-
-msgid "Cannot use encoding: "
 msgstr ""
 
 msgid "Wrong value for #1 argument: a valid file ID expected."
@@ -2815,24 +2536,6 @@ msgstr ""
 msgid "Endian conversion not supported for this file identifier."
 msgstr ""
 
-msgid "encoding conversion not supported for this file identifier."
-msgstr ""
-
-msgid "Filename is empty"
-msgstr ""
-
-msgid "Valid option expected."
-msgstr ""
-
-msgid "Valid variable name expected."
-msgstr ""
-
-msgid "load function expected."
-msgstr ""
-
-msgid "save function expected."
-msgstr ""
-
 msgid "An numeric matrix expected."
 msgstr ""
 
@@ -2847,9 +2550,6 @@ msgid ""
 "\n"
 "  Columns %d to %d\n"
 "\n"
-msgstr ""
-
-msgid "Cannot to use encoding:"
 msgstr ""
 
 msgid "Unable to open file "
@@ -2873,9 +2573,6 @@ msgstr ""
 msgid "NaN and Inf not allowed."
 msgstr ""
 
-msgid "Expected a integer value."
-msgstr ""
-
 msgid "Attempt to convert to unimplemented sparse type."
 msgstr ""
 
@@ -2889,9 +2586,6 @@ msgid "Conversion to char from complex is not possible."
 msgstr ""
 
 msgid "char vector or cell of strings expected."
-msgstr ""
-
-msgid "Number of Input arguments must the same as output."
 msgstr ""
 
 msgid "'class' argument expected."
@@ -3097,11 +2791,6 @@ msgstr ""
 msgid "File saved"
 msgstr ""
 
-msgid ""
-"Cannot write file:\n"
-"%1."
-msgstr ""
-
 msgid "File not saved"
 msgstr ""
 
@@ -3294,9 +2983,6 @@ msgstr ""
 msgid "Cannot convert structure arrays to indices."
 msgstr ""
 
-msgid "Cannot convert unknown type to indices."
-msgstr ""
-
 msgid "operation does not support sparse matrix arguments."
 msgstr ""
 
@@ -3467,12 +3153,6 @@ msgstr ""
 msgid "Not enough right hand side values to satisfy left hand side expression"
 msgstr ""
 
-msgid "String array expected."
-msgstr ""
-
-msgid "Conversion <missing> to character vector is not supported."
-msgstr ""
-
 msgid "Unable to convert supplied object to a string."
 msgstr ""
 
@@ -3608,18 +3288,6 @@ msgstr ""
 msgid "input must be a valid class name."
 msgstr ""
 
-msgid "Wrong type for argument #4. struct expected."
-msgstr ""
-
-msgid "Wrong size for argument #4. scalr struct expected."
-msgstr ""
-
-msgid "Type not supported. Only char, string, numeric or logical allowed."
-msgstr ""
-
-msgid "Wrong type for argument #5. weboptions object expected."
-msgstr ""
-
 msgid "HEAD detached at "
 msgstr ""
 
@@ -3638,144 +3306,6 @@ msgid "repository error %d"
 msgstr ""
 
 msgid "local branch name does not exist."
-msgstr ""
-
-msgid "Bad Request (400)"
-msgstr ""
-
-msgid "Unauthorized (401)"
-msgstr ""
-
-msgid "Payment Required (402)"
-msgstr ""
-
-msgid "Forbidden (403)"
-msgstr ""
-
-msgid "Not Found (404)"
-msgstr ""
-
-msgid "Method Not Allowed (405)"
-msgstr ""
-
-msgid "Not Acceptable (406)"
-msgstr ""
-
-msgid "Proxy Authentication Required (407)"
-msgstr ""
-
-msgid "Request Timeout (408)"
-msgstr ""
-
-msgid "Conflict (409)"
-msgstr ""
-
-msgid "Gone (410)"
-msgstr ""
-
-msgid "Length Required (411)"
-msgstr ""
-
-msgid "Precondition Failed (412)"
-msgstr ""
-
-msgid "Payload Too Large (413)"
-msgstr ""
-
-msgid "URI Too Long (414)"
-msgstr ""
-
-msgid "Unsupported Media Type (415)"
-msgstr ""
-
-msgid "Range Not Satisfiable (416)"
-msgstr ""
-
-msgid "Expectation Failed (417)"
-msgstr ""
-
-msgid "I'm a teapot (418)"
-msgstr ""
-
-msgid "Misdirected Request (421)"
-msgstr ""
-
-msgid "Unprocessable Entity (422)"
-msgstr ""
-
-msgid "Locked (423)"
-msgstr ""
-
-msgid "Failed Dependency (424)"
-msgstr ""
-
-msgid "Too Early (425)"
-msgstr ""
-
-msgid "Upgrade Required (426)"
-msgstr ""
-
-msgid "Precondition Required (428)"
-msgstr ""
-
-msgid "Too Many Requests (429)"
-msgstr ""
-
-msgid "Request Header Fields Too Large (431)"
-msgstr ""
-
-msgid "Unavailable For Legal Reasons (451)"
-msgstr ""
-
-msgid "Internal Server Error (500)"
-msgstr ""
-
-msgid "Not Implemented (501)"
-msgstr ""
-
-msgid "Bad Gateway (502)"
-msgstr ""
-
-msgid "Service Unavailable (503)"
-msgstr ""
-
-msgid "Gateway Timeout (504)"
-msgstr ""
-
-msgid "HTTP Version Not Supported (505)"
-msgstr ""
-
-msgid "Variant Also Negotiates (506)"
-msgstr ""
-
-msgid "Insufficient Storage (507)"
-msgstr ""
-
-msgid "Loop Detected (508)"
-msgstr ""
-
-msgid "Not Extended(510)"
-msgstr ""
-
-msgid "Network Authentication Required (511)"
-msgstr ""
-
-msgid "HTTP Client error code: "
-msgstr ""
-
-msgid "HTTP Server error code: "
-msgstr ""
-
-msgid "weboptions object expected."
-msgstr ""
-
-msgid "Cannot create destination file."
-msgstr ""
-
-msgid "Cannot initialize webwrite."
-msgstr ""
-
-msgid "Cannot initialize websave."
 msgstr ""
 
 msgid "Allowable stack depth exceeded..."
@@ -4021,9 +3551,6 @@ msgstr ""
 msgid "Wrong type for #1 argument: numeric value expected."
 msgstr ""
 
-msgid "Wrong type for #2 argument: numeric value expected."
-msgstr ""
-
 msgid "Wrong type for argument #1. cell expected."
 msgstr ""
 
@@ -4203,10 +3730,6 @@ msgstr ""
 msgid "assert_checkerror fails."
 msgstr ""
 
-#, python-format
-msgid "Assertion failed: expected (%g) and computed (%g) values are different."
-msgstr ""
-
 msgid "assert_isfalse fails."
 msgstr ""
 
@@ -4226,9 +3749,6 @@ msgid "an expression after +"
 msgstr ""
 
 msgid "Cell must be string scalars or character arrays."
-msgstr ""
-
-msgid "Input should be a string or character array."
 msgstr ""
 
 msgid "Invalid type for #2 input argument: doublePtr expected."
@@ -4255,18 +3775,7 @@ msgstr ""
 msgid "Size mismatch on arguments to arithmetic operator <="
 msgstr ""
 
-#, python-format
-msgid "function %s_num2bin undefined."
-msgstr ""
-
-#, python-format
-msgid "function %s_swapbytes undefined."
-msgstr ""
-
 msgid "warning(query) does not require an second argument."
-msgstr ""
-
-msgid "Invalid type for #1 input argument: char or string expected."
 msgstr ""
 
 msgid "Wrong value for #3 argument. A valid icon or mode expected."
@@ -4334,10 +3843,6 @@ msgid "Undefined function tanh for input arguments of type "
 msgstr ""
 
 msgid "Undefined function tanm for input arguments of type "
-msgstr ""
-
-#, python-format
-msgid "%s is not a recognized parameter."
 msgstr ""
 
 msgid "Please install and configure a C/C++ compiler"
@@ -4456,9 +3961,6 @@ msgstr ""
 msgid "Invalid Input(s) must be strings or cell arrays."
 msgstr ""
 
-msgid "Invalid Input struct expected."
-msgstr ""
-
 msgid "cmake not found."
 msgstr ""
 
@@ -4544,9 +4046,6 @@ msgid "X must be a vector or matrix."
 msgstr ""
 
 msgid "All values of DIM must be integer values."
-msgstr ""
-
-msgid "Invalid value for #1 input argument: directory must exists."
 msgstr ""
 
 msgid "This is the default error string."
@@ -4663,17 +4162,4 @@ msgid "output res and ref are not equal."
 msgstr ""
 
 msgid "Cannot edit the directory: "
-msgstr ""
-
-#, python-format
-msgid "invalid value for %s field."
-msgstr ""
-
-msgid "String or characters expected."
-msgstr ""
-
-msgid "weboptions must be last argument."
-msgstr ""
-
-msgid "unmanaged case."
 msgstr ""
